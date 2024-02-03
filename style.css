@@ -7,6 +7,14 @@
     font-family: 'Merriweather', serif;
 }
 
+h1 {
+    font-size: x-large;
+}
+
+h2 {
+    font-size: larger;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -33,6 +41,14 @@ body {
     transform: translate(-50%, -50%);
 
     transition: all 1s ease-out;
+}
+
+.container .greeter h1 {
+    font-size: xx-large;
+}
+
+.container .greeter h2{
+    font-size: x-large;
 }
 
 .greeter  h1, h2 {
